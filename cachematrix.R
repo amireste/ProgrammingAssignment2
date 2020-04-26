@@ -24,7 +24,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ## value (if the matrix is not changed)
 
 cacheSolve <- function(x, ...) {
-  browser()
   i <- x$getinv()
   if(!is.null(i)) {
     message("getting cached data")
